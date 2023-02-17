@@ -1,4 +1,5 @@
 from django.db import models
+from user import models as user_models
 
 # Create your models here.
 class Category(models.Model):
@@ -41,5 +42,19 @@ class ProductOrder(models.Model): # 유저가 구매한 상품 개수 저장
         db_table = 'product_orders'
 
 
-# 유저의 주문(배송주소, 주문시간, 전체 상품 가격, 할인율, 최종가격, 유효여부(boolean))
-# class UserOrder(models.Model):
+class UserOrder(models.Model):
+    user = models.ForeignKey(user_models.User, on_delete=models.SET_NULL, null=True)
+    product_order = models.ForeignKey('ProductOrder', on_delete=models.SET_NULL, null=True)
+    order_status = models.ForeignKey('OrderStatus', on_delete=models.SET_NULL, null=True)
+
+    delivery_address = models.CharField(max_length=1000)
+    order_time = models.DateTimeField()
+    total_price = models.DecimalField(max_digits=20, decimal_places=2)
+
+    discount_rate = models.DecimalField(max_digits=20, decimal_places=2)
+    final_price = models.DecimalField(max_digits=20, decimal_places=2)
+
+    active = models.BooleanField()
+
+    class Meta:
+        db_table = 'user_orders'
