@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2d83ae-eed5-4987-9d8b-fdab19e05e9d" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M_shopping_mall/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/M_shopping_mall/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M_shopping_mall/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/M_shopping_mall/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a43b246e-8e21-496a-a028-2761350102ad.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product/2023/02/21/iphone.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product/2023/02/21/mac.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
@@ -139,7 +135,7 @@
       <workItem from="1676613529106" duration="124000" />
       <workItem from="1676618186823" duration="8521000" />
       <workItem from="1676628194652" duration="21000" />
-      <workItem from="1676881963300" duration="22413000" />
+      <workItem from="1676881963300" duration="22915000" />
     </task>
     <servers />
   </component>
