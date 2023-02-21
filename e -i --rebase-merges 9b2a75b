@@ -1,0 +1,27 @@
+* 9b2a75b = yinmsk , 74 minutes ago : no message
+*   768deb6 = yinmsk , 2 hours ago : Merge branch 'main' of https://github.com/yinmsk/M_sopping_mall
+[32m|[m[33m\[m  
+[32m|[m * 31c4bae = yinmsk , 3 hours ago : Update README.md
+[32m|[m * d5ab80d = yinmsk , 30 hours ago : Update README.md
+* [33m|[m c606188 = yinmsk , 2 hours ago : no message
+* [33m|[m 41800e4 = yinmsk , 2 hours ago : CLN
+* [33m|[m 609320d = yinmsk , 2 hours ago : fest(product): views.py에서 작성할 기본 crud 뼈대 작성
+* [33m|[m 128f38d = yinmsk , 2 hours ago : fest(user): user의 회원가입, 조회 기능 추가
+* [33m|[m 6e0877d = yinmsk , 2 hours ago : test(user): 회원가입 test_code 작성
+* [33m|[m 92c9569 = yinmsk , 2 hours ago : fest(product): Django 기본 url 설정
+* [33m|[m e952a08 = yinmsk , 2 hours ago : CLN
+* [33m|[m a12483e = yinmsk , 2 hours ago : Add [image]: iphone, macbook 이미지 업로드
+* [33m|[m 54bbd6c = yinmsk , 2 hours ago : feat(user): 임시로 User 모델의 serializer 작성하였다.
+* [33m|[m 06c4b6d = yinmsk , 2 hours ago : fest(user): Django 기본 url 설정
+* [33m|[m d9b0c62 = yinmsk , 2 hours ago : CLN
+* [33m|[m d99d628 = yinmsk , 2 hours ago : feat(*): admin 설정. admin 페이지에서 name(str) 출력
+* [33m|[m 1079a63 = yinmsk , 2 hours ago : fest(*): 장고 app 초기 설정 및 MEDIA_ROOT 설정
+* [33m|[m fd05504 = yinmsk , 2 hours ago : feat(*): install 후 setting 및 image 업로드를 위한 MEDIA_ROOT 설정
+[33m|[m[33m/[m  
+* ca9f821 = yinmsk , 4 days ago : feat(product): UserOrder 모델 생성
+* 66bad62 = yinmsk , 4 days ago : CLN
+* 99f5fee = yinmsk , 4 days ago : CLN
+* 02549de = yinmsk , 4 days ago : feat(*) : user, product app 추가 및 모델링
+* f46ed0e = yinmsk , 5 days ago : feat(*) : 프로젝트 생성
+* 0dbc2e1 = yinmsk , 5 days ago : Update README.md
+* 26716ce = yinmsk , 5 days ago : Initial commit
