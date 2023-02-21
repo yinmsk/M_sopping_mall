@@ -8,9 +8,12 @@ class Category(models.Model):
     class Meta:
         db_table = 'categories'
 
+    def __str__(self): # admin page에서 name을 보여준다.
+        return self.name
+
 
 class Product(models.Model):
-    category = models.ForeignKey('Category', on_delete=models.SET_NULL, null=True) #
+    category = models.ForeignKey('Category', on_delete=models.SET_NULL, null=True)
     name = models.CharField(max_length=100)
     image = models.ImageField(upload_to='product/%Y/%m/%d', blank=True)
     description = models.TextField(blank=True) # 긴 문자열 필드
@@ -23,7 +26,7 @@ class Product(models.Model):
     class Meta:
         db_table = 'products'
 
-    def __str__(self): # admin page에서 name을 보여준다.
+    def __str__(self):
         return self.name
 
 
@@ -32,6 +35,9 @@ class OrderStatus(models.Model):
 
     class Meta:
         db_table = 'order_status'
+
+    def __str__(self):
+        return self.status_name
 
 
 class ProductOrder(models.Model): # 유저가 구매한 상품 개수 저장
